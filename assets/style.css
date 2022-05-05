@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Hammersmith+One&family=Pacifico&display=swap');
+
+* {
+    text-decoration: none;
+}
+
+
+h2 {
+    margin: 0px;
+}
+
+
+body {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.logotipo {
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.cabecario {
+    display: flex;
+    gap: 90px;
+    flex-direction: row;  /* Direçao que eles vao ficar */
+    align-items: center; /* aliando itens no centro */
+    justify-content: space-around; /** Distribuindo os itens com forma de espaçamento organizada. **/
+}
+
+.menu-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.item-menu {
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.item-menu:hover {
+    color: rgb(177, 174, 174);
+}
+
+
+
+.bloco {
+    margin-bottom: 15px; /* margin para baixo, para separar os blocos */
+    cursor: pointer;
+    padding: 20px;
+    background-image: linear-gradient(280deg, #7107ff 0, #6600ff 50%, #5a00fc 100%);
+    border-radius: 9px;
+}
+
+.container {
+    display: grid;
+    margin-top: 30px;;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+
+
+
+.bloco:hover {
+    border: 3px solid white;
+    background-image: url(../img/rj.jpg);
+}
+
+
+.titulo-viagem {
+    color: rgb(255, 255, 255);
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.preco {
+    color: rgb(255, 255, 255);
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.botao {
+
+    cursor: pointer;
+    font-size: 13px;
+    background-color: white;
+    height: 25px;
+    width: 120px;
+    border: none; /** Sem borda, pois vem borda como configuração pre-definida, estamos tirando ela **/
+}
+
+.botao:hover {
+    color: white;
+    background-color: rgb(80, 77, 77);
+}
