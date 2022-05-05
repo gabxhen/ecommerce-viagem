@@ -72,7 +72,7 @@ h1 {
 
 .bloco:hover {
     border: 3px solid white;
-    background-image: url(/rj.jpg);
+    background-image: url(../img/rj.jpg);
 }
 
 
